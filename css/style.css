@@ -124,3 +124,40 @@ opacity: 1;
 .main-content {
   flex-grow: 1;
 }
+
+
+/* BUTTON */
+.button {
+  display: inline-block;
+  padding: 8px 22px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.button:active {
+  opacity: 0.6;
+}
+
+.button--red {
+  background-color: var(--red);
+  color: #fff;
+}
+
+.button--red:hover {
+  border-color: var(--red);
+  background-color: #fff;
+  color: var(--red);
+}
+
+.button--site-header {
+  padding: 10px 30px;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+}
